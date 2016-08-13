@@ -10,10 +10,16 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #5680ad;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+em {
+  color: #5680ad;
+  font-weight: bolder;
+  font-style: italic;
+}
 
 .btn {
   display: inline-block;
@@ -52,6 +58,14 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
+
+@media screen and (min-width: 42em) {
+  .site-header-logo img {
+    height:100px; } }
+
+@media screen and (max-width: 42em) {
+  .site-header-logo img {
+    height:70px; } }
 
 .page-header {
   color: #fff;
@@ -108,11 +122,16 @@ a {
   margin-top: 0; }
 .main-content img {
   max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1, .main-content h2, .main-content h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #15bbff; }
+  color: #5680ad; }
+.main-content h4, .main-content h5, .main-content h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #606c71; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -219,6 +238,15 @@ a {
   .main-content {
     padding: 2rem 1rem;
     font-size: 1rem; } }
+
+.mission-statement {
+  font-size: 1.2rem;
+  padding-top: 0rem;
+  margin-top: 0rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: solid 1px #eff0f1;
+}
 
 .site-footer {
   padding-top: 2rem;
