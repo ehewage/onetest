@@ -71,7 +71,7 @@ em {
   color: #fff;
   text-align: right;
   background-color: #15bbff;
-  background-image: linear-gradient(120deg, #ff0546, #070f39); }
+  background-image: linear-gradient(60deg, #e31740, #39011b); }
 
 @media screen and (min-width: 64em) {
   .page-header {
