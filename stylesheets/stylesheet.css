@@ -16,7 +16,7 @@ a {
     text-decoration: underline; }
 
 em {
-  color: #5680ad;
+  color: #ab1e50;
   font-weight: bolder;
   font-style: italic;
 }
@@ -69,9 +69,9 @@ em {
 
 .page-header {
   color: #fff;
-  text-align: left;
+  text-align: right;
   background-color: #15bbff;
-  background-image: linear-gradient(120deg, #070f39, #ff3333); }
+  background-image: linear-gradient(120deg, #ff0546, #070f39); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -86,6 +86,7 @@ em {
     padding: 2rem 1rem; } }
 
 .project-name {
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
@@ -102,6 +103,7 @@ em {
     font-size: 1.75rem; } }
 
 .project-tagline {
+  text-align: left;
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7; }
@@ -240,13 +242,24 @@ em {
     font-size: 1rem; } }
 
 .mission-statement {
-  font-size: 1.2rem;
   padding-top: 0rem;
   margin-top: 0rem;
   padding-bottom: 2rem;
   margin-bottom: 4rem;
   border-bottom: solid 1px #eff0f1;
 }
+
+@media screen and (min-width: 64em) {
+  .mission-statement {
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .mission-statement {
+    font-size: 1.125rem; } }
+
+@media screen and (max-width: 42em) {
+  .mission-statement {
+    font-size: 1.1rem; } }
 
 .site-footer {
   padding-top: 2rem;
