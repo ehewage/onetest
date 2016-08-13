@@ -55,17 +55,17 @@ a {
 
 .page-header {
   color: #fff;
-  text-align: center;
+  text-align: left;
   background-color: #15bbff;
-  background-image: linear-gradient(120deg, #ff3333, #15bbff); }
+  background-image: linear-gradient(120deg, #070f39, #ff3333); }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 3rem 5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 2rem 3rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
