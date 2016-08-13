@@ -56,7 +56,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
+  background-color: #15bbff;
   background-image: linear-gradient(120deg, #ff3333, #15bbff); }
 
 @media screen and (min-width: 64em) {
@@ -228,6 +228,9 @@ a {
 .site-footer-owner {
   display: block;
   font-weight: bold; }
+
+  .site-footer-logo {
+    align-self: flex-start;}
 
 .site-footer-credits {
   color: #819198; }
